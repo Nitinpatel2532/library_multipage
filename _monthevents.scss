@@ -1,0 +1,35 @@
+.monthevents{
+    
+    padding: 50px;
+    // border-style: dotted;
+    // border-image-width:20px;
+    // border-image-source: url(bookbg3.jpg);
+    // border-image-slice: 20;
+    // border-image-repeat: repeat;
+    text-align: center;
+    line-height: 40px;
+    background-image: url(bookbg3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+  h1{
+    text-decoration: underline;
+  }
+    p{
+        letter-spacing: 4px;
+    }
+    button{
+        background-color: white;
+        padding: 6px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border: 2px solid white;
+
+    }
+    button:hover{
+        color: white;
+        padding: 8px;
+        background-color: black;
+    }
+   
+}

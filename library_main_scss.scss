@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding: 0px;
+    // font-family:cursive;
+}
+@import "_firstnav.scss";
+@import "_secondnav.scss";
+@import "_explore.scss";
+@import "_monthevents.scss";
+@import "_explore2.scss";
+@import "_mainblock.scss";
+@import "_lastnavbar.scss";
+@import "_footer1.scss";
+@import "_footer2.scss";
+@import "_booksmart.scss";
+
+@keyframes h1anim {
+    0%{
+        color: blue;
+    }
+    30%{
+        color:red;
+    }
+    60%{
+        color: yellow;
+    }
+    100%{
+        color: black;
+    }
+    
+}
+.firstsection{
+    // text-align: center;
+    // align-items: center;
+    background-image: url(book4.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    background-position: center;
+    background-attachment: fixed;
+
+    .div1{
+        background-color: rgba(255, 255, 255, 0.644);
+        padding: 50px;
+        border-radius: 10px;
+    
+    
+    h1{
+        text-align: center;
+        font-family: cursive;
+        font-size: 40px;
+        color: orange;
+        text-decoration: underline;
+        animation-name: h1anim;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        transition:h1 5s linear;  
+    }
+    p{
+        color:black;
+        line-height: 30px;
+        word-spacing: 10px;
+        font-size: 1.5rem;
+    }
+    button{
+        
+        background-color: red;
+        padding: 5px;
+        border: 1px solid blueviolet;
+        color: white;
+        border-radius: 5px;
+    }
+    button:hover{
+        border-end-start-radius: 16px;
+        border-start-end-radius: 16px;
+        color: blue;
+    }
+}
+}
+.jamesdiv{
+    background-image: url(bookdiv3.jpg);
+  @include bgimg();
+
+}
+.lastnavbar{
+    background-color: lightcoral;
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+
+    p{
+        color: white;
+    }
+    h3{
+        color: white;
+        align-items:center;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+

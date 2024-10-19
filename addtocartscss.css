@@ -1,0 +1,51 @@
+.formdiv {
+  display: flex;
+  justify-content: center;
+  line-height: 26px;
+  background-image: url(bookdiv3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.formdiv .form {
+  box-shadow: 1px 1px 5px 2px black;
+  padding: 18px;
+  margin: 15px;
+}
+.formdiv .form #inp {
+  width: 100%;
+  padding: 5px;
+}
+.formdiv .form p {
+  font-size: 12pxpx;
+}
+.formdiv .form button {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  text-align: center;
+  border-style: none;
+  border-radius: 10px;
+  width: 100%;
+  font-size: 15px;
+}
+.formdiv .form button:hover {
+  background-color: goldenrod;
+}
+.formdiv .form #loc {
+  border: 1px solid;
+  text-align: center;
+  border-radius: 10px;
+  padding: 3 px;
+  margin-bottom: 10px;
+  background-color: red;
+  color: white;
+}
+.formdiv .form #loc:hover {
+  background-color: goldenrod;
+}
+.formdiv .form select {
+  width: 100%;
+  padding: 8px;
+  background-color: whitesmoke;
+}/*# sourceMappingURL=addtocartscss.css.map */

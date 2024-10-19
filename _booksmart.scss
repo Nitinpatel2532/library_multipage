@@ -1,0 +1,33 @@
+*{
+  font-family: cursive;
+}
+.booksmartnav{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 5px;
+    row-gap: 5px;
+  ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    a:hover{
+        background-color:white;
+        color: blueviolet;
+        padding: 7px;
+    }
+  }
+  input{
+    text-align: center;
+  }
+  input::placeholder{
+    color: blue;
+  }
+
+}

@@ -1,0 +1,13 @@
+.footer2{
+    background-color: rgba(0, 0, 0, 0.338);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    .last1{
+        display: flex;
+        gap: 30px;
+    }
+}

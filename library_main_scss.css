@@ -1,0 +1,483 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar1 {
+  background-color: black;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+}
+.navbar1 ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: white;
+}
+.navbar1 img {
+  padding-right: 20px;
+}
+
+.secondnav {
+  background-color: black;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+.secondnav ul {
+  padding: 5px;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  color: white;
+}
+.secondnav ul a {
+  color: white;
+  text-decoration: none;
+}
+.secondnav ul a:hover {
+  color: blueviolet;
+  background-color: white;
+  padding: 5px;
+}
+
+.explore1 {
+  background-color: red;
+  text-align: center;
+  padding: 20px;
+  margin: 0px 80px 10px;
+  color: white;
+  box-shadow: 1px 1px 4px 1px black;
+  border-radius: 10px;
+}
+.explore1 h2 {
+  font-size: 40px;
+  text-shadow: 2px 4px 5px;
+}
+.explore1 h2::first-letter {
+  font-size: 70px;
+}
+.explore1 h4 {
+  font-size: 25px;
+  text-decoration: overline;
+  text-decoration-color: black;
+}
+.explore1 p {
+  color: black;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+.explore1 h5 {
+  text-align: end;
+}
+.explore1 h5 button {
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: whitesmoke;
+}
+.explore1 h5 button:hover {
+  padding: 7px;
+  cursor: pointer;
+  color: blue;
+  background-color: chocolate;
+  border: 2px solid white;
+}
+
+.monthevents {
+  padding: 50px;
+  text-align: center;
+  line-height: 40px;
+  background-image: url(bookbg3.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.monthevents h1 {
+  text-decoration: underline;
+}
+.monthevents p {
+  letter-spacing: 4px;
+}
+.monthevents button {
+  background-color: white;
+  padding: 6px;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border: 2px solid white;
+}
+.monthevents button:hover {
+  color: white;
+  padding: 8px;
+  background-color: black;
+}
+
+.explore2 {
+  padding: 120px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-image: url(bookbg.jpg);
+}
+
+.peterson {
+  box-shadow: 1px 1px 4px 1px black;
+  border-radius: 10px;
+  background-color: red;
+  text-align: center;
+  padding: 20px;
+  margin: 0px 80px 10px;
+  color: white;
+}
+.peterson h2 {
+  font-size: 40px;
+  text-shadow: 2px 4px 5px;
+}
+.peterson h2::first-letter {
+  font-size: 70px;
+}
+.peterson h4 {
+  font-size: 25px;
+  text-decoration: overline;
+  text-decoration-color: black;
+}
+.peterson p {
+  color: black;
+  line-height: 25px;
+  font-family: sans-serif;
+}
+.peterson h5 {
+  text-align: end;
+}
+.peterson h5 button {
+  padding: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: whitesmoke;
+}
+.peterson h5 button:hover {
+  padding: 7px;
+  cursor: pointer;
+  color: blue;
+  background-color: chocolate;
+  border: 2px solid white;
+}
+
+.mainblock {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  text-align: center;
+  line-height: 25px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.mainblock .ch1 {
+  border: 1px solid;
+  padding: 20px;
+  width: 450px;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 10px;
+}
+.mainblock .ch2 {
+  border: 1px solid;
+  padding: 20px;
+  width: 450px;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 10px;
+}
+
+.mainblock2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  text-align: center;
+  line-height: 25px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.mainblock2 .ch3 {
+  border: 1px solid;
+  padding: 20px;
+  width: 450px;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 10px;
+}
+.mainblock2 .ch4 {
+  border: 1px solid;
+  padding: 20px;
+  width: 450px;
+  box-shadow: 1px 1px 5px 1px black;
+  border-radius: 10px;
+}
+
+.lastdiv {
+  text-align: center;
+  align-items: center;
+  padding: 50px;
+}
+.lastdiv h3 {
+  font-size: 40px;
+  text-decoration: underline;
+  line-height: 40px;
+}
+.lastdiv .ug {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.lastdiv .paris {
+  border: 1px solid;
+}
+.lastdiv .davenports {
+  border: 1px solid;
+}
+.lastdiv button {
+  background-color: red;
+  padding: 5px;
+  color: white;
+  border: none;
+}
+.lastdiv button:hover {
+  background-color: chocolate;
+  padding: 7px;
+  color: black;
+  border-radius: 10px;
+}
+
+.lastnav {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  justify-content: space-around;
+  text-align: center;
+}
+.lastnav .lastfirst {
+  background-color: rgb(232, 103, 103);
+  padding: 50px;
+  color: white;
+  line-height: 30px;
+}
+.lastnav .lastsecond {
+  background-color: rgb(62, 56, 56);
+  padding: 50px;
+  color: white;
+  line-height: 30px;
+}
+.lastnav button {
+  padding: 7px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+}
+.lastnav button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(46, 41, 41);
+  align-items: center;
+  padding: 12px;
+}
+.footer1 ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.footer1 ul a {
+  color: white;
+  text-decoration: none;
+}
+.footer1 ul a:hover {
+  color: blueviolet;
+  background-color: white;
+  padding: 5px;
+}
+.footer1 .footericons {
+  align-items: center;
+  color: white;
+}
+.footer1 .footericons i {
+  gap: 100px;
+}
+
+#check:checked ~ .footer1 ul {
+  display: block;
+}
+
+.footer1 label {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .footer1 ul {
+    display: none;
+    position: relative;
+    /* right: 0px; */
+    left: 2px;
+    background-color: yellowgreen;
+    width: 30%;
+    color: black;
+    line-height: 30px;
+  }
+  .footer1 label {
+    display: block;
+    align-items: center;
+    line-height: 20px;
+  }
+}
+@media screen {
+  #check {
+    display: none;
+  }
+}
+.footer2 {
+  background-color: rgba(0, 0, 0, 0.338);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+.footer2 .last1 {
+  display: flex;
+  gap: 30px;
+}
+
+* {
+  font-family: cursive;
+}
+
+.booksmartnav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 5px;
+  row-gap: 5px;
+}
+.booksmartnav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.booksmartnav ul a {
+  color: white;
+  text-decoration: none;
+}
+.booksmartnav ul a:hover {
+  background-color: white;
+  color: blueviolet;
+  padding: 7px;
+}
+.booksmartnav input {
+  text-align: center;
+}
+.booksmartnav input::-moz-placeholder {
+  color: blue;
+}
+.booksmartnav input::placeholder {
+  color: blue;
+}
+
+@keyframes h1anim {
+  0% {
+    color: blue;
+  }
+  30% {
+    color: red;
+  }
+  60% {
+    color: yellow;
+  }
+  100% {
+    color: black;
+  }
+}
+.firstsection {
+  background-image: url(book4.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  background-position: center;
+  background-attachment: fixed;
+}
+.firstsection .div1 {
+  background-color: rgba(255, 255, 255, 0.644);
+  padding: 50px;
+  border-radius: 10px;
+}
+.firstsection .div1 h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 40px;
+  color: orange;
+  text-decoration: underline;
+  animation-name: h1anim;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: h1 5s linear;
+}
+.firstsection .div1 p {
+  color: black;
+  line-height: 30px;
+  word-spacing: 10px;
+  font-size: 1.5rem;
+}
+.firstsection .div1 button {
+  background-color: red;
+  padding: 5px;
+  border: 1px solid blueviolet;
+  color: white;
+  border-radius: 5px;
+}
+.firstsection .div1 button:hover {
+  border-end-start-radius: 16px;
+  border-start-end-radius: 16px;
+  color: blue;
+}
+
+.jamesdiv {
+  background-image: url(bookdiv3.jpg);
+  padding: 120px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.lastnavbar {
+  background-color: lightcoral;
+  padding: 40px;
+  display: flex;
+  gap: 40px;
+  text-align: center;
+}
+.lastnavbar p {
+  color: white;
+}
+.lastnavbar h3 {
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}/*# sourceMappingURL=library_main_scss.css.map */

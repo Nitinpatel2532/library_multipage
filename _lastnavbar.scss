@@ -1,0 +1,35 @@
+.lastnav{
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    justify-content: space-around;
+    text-align: center;
+    // flex-wrap: wrap;
+
+    .lastfirst{
+        background-color: rgb(232, 103, 103);
+        padding: 50px;
+        color: white;
+        line-height: 30px;
+
+    }
+    .lastsecond{
+        background-color: rgb(62, 56, 56);
+        padding: 50px;
+        color: white;
+        line-height: 30px;
+    }
+    button{
+        padding: 7px;
+        
+            background-color: red;
+            color: white;
+            border-style: none;
+            border-radius: 10px;
+        }
+        button:hover{
+            color: white;
+            cursor: pointer;
+            background-color: aqua;
+            color: black;
+        }
+    }

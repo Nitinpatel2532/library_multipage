@@ -1,0 +1,217 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: cursive;
+}
+
+.lastnav {
+  display: flex;
+  margin: 20px 0px 20px 0px;
+  justify-content: space-around;
+  text-align: center;
+}
+.lastnav .lastfirst {
+  background-color: rgb(232, 103, 103);
+  padding: 50px;
+  color: white;
+  line-height: 30px;
+}
+.lastnav .lastsecond {
+  background-color: rgb(62, 56, 56);
+  padding: 50px;
+  color: white;
+  line-height: 30px;
+}
+.lastnav button {
+  padding: 7px;
+  background-color: red;
+  color: white;
+  border-style: none;
+  border-radius: 10px;
+}
+.lastnav button:hover {
+  color: white;
+  cursor: pointer;
+  background-color: aqua;
+  color: black;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(46, 41, 41);
+  align-items: center;
+  padding: 12px;
+}
+.footer1 ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.footer1 ul a {
+  color: white;
+  text-decoration: none;
+}
+.footer1 ul a:hover {
+  color: blueviolet;
+  background-color: white;
+  padding: 5px;
+}
+.footer1 .footericons {
+  align-items: center;
+  color: white;
+}
+.footer1 .footericons i {
+  gap: 100px;
+}
+
+#check:checked ~ .footer1 ul {
+  display: block;
+}
+
+.footer1 label {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  .footer1 ul {
+    display: none;
+    position: relative;
+    /* right: 0px; */
+    left: 2px;
+    background-color: yellowgreen;
+    width: 30%;
+    color: black;
+    line-height: 30px;
+  }
+  .footer1 label {
+    display: block;
+    align-items: center;
+    line-height: 20px;
+  }
+}
+@media screen {
+  #check {
+    display: none;
+  }
+}
+.footer2 {
+  background-color: rgba(0, 0, 0, 0.338);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 30px;
+}
+.footer2 .last1 {
+  display: flex;
+  gap: 30px;
+}
+
+.aboutnav {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  /* flex-direction: column; */
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  flex-wrap: wrap;
+}
+.aboutnav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+.aboutnav ul a {
+  text-decoration: none;
+  color: black;
+}
+.aboutnav ul a:hover {
+  color: blueviolet;
+  text-decoration: underline;
+}
+
+.aboutimg {
+  background-image: url(bookimgdiv2.jpg);
+  text-align: center;
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  /* color: rgb(255, 173, 173); */
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-style: oblique;
+}
+
+.aboutcontent {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  padding: 30px;
+  flex-wrap: wrap-reverse;
+  text-align: center;
+  line-height: 25px;
+}
+.aboutcontent .words {
+  width: 400px;
+}
+.aboutcontent .words h1 {
+  color: rgba(0, 0, 0, 0.07);
+  text-align: center;
+  align-items: center;
+  padding-left: 200px;
+}
+.aboutcontent button {
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  border-style: none;
+}
+.aboutcontent button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  padding: 7px;
+  border-radius: 15px;
+}
+
+.history {
+  justify-content: space-around;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  padding: 15px;
+  line-height: 25px;
+}
+
+.management {
+  justify-content: space-around;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  padding: 15px;
+  line-height: 25px;
+}
+
+.news {
+  justify-content: space-around;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  padding: 15px;
+  line-height: 25px;
+}
+
+.friend {
+  justify-content: space-around;
+  margin: 10px;
+  box-shadow: 1px 1px 5px 1px black;
+  padding: 15px;
+  line-height: 25px;
+}/*# sourceMappingURL=aboutuspagescss.css.map */

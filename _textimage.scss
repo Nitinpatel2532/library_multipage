@@ -1,0 +1,24 @@
+.textimg{
+    text-align: center;
+    padding: 20px;
+
+    // width: min-content;
+    // overflow-wrap: break-word;
+    background-image: url(book5.jfif);
+    background-clip:text;
+    -webkit-text-fill-color: transparent;
+   
+
+    h1{
+        // color: rgba(0, 0, 0, 0.656);
+        align-items: center;
+       
+        font-size:110px;
+       
+        // overflow: hidden;
+        //  white-space: nowrap;
+        //  text-overflow: ellipsis;
+        overflow-wrap: break-word;
+        // text-wrap: balance;
+    }
+}

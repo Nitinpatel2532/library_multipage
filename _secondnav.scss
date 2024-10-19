@@ -1,0 +1,20 @@
+.secondnav{
+    @include struct();
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    ul{
+        padding: 5px;
+    @include ulmanage();
+     a{
+        color: white;
+        text-decoration: none;
+     }
+     a:hover{
+        color: blueviolet;
+        background-color: white;
+        padding: 5px;
+     }
+    }
+   
+}

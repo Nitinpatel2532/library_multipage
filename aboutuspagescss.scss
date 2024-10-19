@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+@import "_lastnavbar.scss";
+@import "_footer1.scss";
+@import "_footer2.scss";
+
+.aboutnav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    /* flex-direction: column; */
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    flex-wrap: wrap;
+    ul{
+        display: flex;
+        justify-content:center;
+        gap: 30px;
+        list-style: none;
+       
+        a{
+          text-decoration: none;
+          color: black;
+        }
+        a:hover{
+            color: blueviolet;
+            text-decoration: underline;
+        }
+
+    }
+}
+.aboutimg{
+    background-image: url(bookimgdiv2.jpg);
+    text-align: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    /* color: rgb(255, 173, 173); */
+color: rgb(255, 255, 255);  
+  font-size: 20px;
+  font-style: oblique;
+}
+.aboutcontent{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    padding: 30px;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    line-height: 25px;
+
+
+    .words{
+        width: 400px;
+        h1{
+            color: rgba(0, 0, 0, 0.07);
+            text-align: center;
+            align-items: center;
+            padding-left: 200px;
+        }
+    }
+    button{
+        background-color: red;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        border-style: none;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        padding: 7px;
+        border-radius: 15px;
+        
+
+    }
+}
+@mixin block(){
+    justify-content: space-around;
+    margin: 10px;
+    box-shadow: 1px 1px 5px 1px black;
+    padding:15px;
+
+    line-height: 25px;
+}
+.history{
+@include block();
+}
+.management{
+    @include block();
+
+}
+.news{
+    @include block();
+}
+.friend{
+    @include block();
+
+}

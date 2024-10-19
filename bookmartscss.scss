@@ -1,0 +1,45 @@
+@import "_booksmart.scss";
+@import "_textimage.scss";
+@import "_bookstore.scss";
+
+@mixin bookdiv(){
+    text-align: center;
+    // padding: 20px;
+    line-height: 50px;
+    align-items: center;
+    color: rgb(240, 248, 255);
+    letter-spacing: 3px
+    
+}
+
+.bookdiv{
+    @include bookdiv();
+    padding: 120px;
+    background-image: url(bookdivimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    // width:700px;
+    // height: 300px;
+    // margin:0px 150px 0px 150px;
+
+    h3{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 50px;
+        font-family: fantasy;
+    }
+    p{
+        font-size: 20px;
+    }
+    button{
+        padding: 5px;
+        border-radius: 8px;
+        border-style: none;
+        width: 100px;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+}

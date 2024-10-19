@@ -1,0 +1,131 @@
+.buydetails {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 25px;
+  flex-wrap: wrap;
+  gap: 30px;
+  row-gap: 15px;
+}
+.buydetails .det1 {
+  text-align: center;
+  row-gap: 10px;
+}
+.buydetails .det1 img {
+  border: 1px solid;
+  border-radius: 8px;
+}
+.buydetails .det1 a {
+  border: 1px solid;
+  text-decoration: none;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  color: black;
+  background-color: orchid;
+}
+.buydetails .det1 a:hover {
+  color: white;
+  background-color: red;
+}
+.buydetails .det2 {
+  width: 400px;
+  line-height: 25px;
+}
+.buydetails .det2 .emi {
+  border: 1px solid;
+  padding: 5px;
+  margin: 5px;
+}
+.buydetails .det2 .deliveryicon {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  text-align: center;
+}
+.buydetails .det2 .deliveryicon i {
+  font-size: 25px;
+}
+.buydetails .det3 {
+  box-shadow: 1px 1px 4px 2px black;
+  padding: 5px;
+  line-height: 25px;
+}
+.buydetails .det3 #btn1 {
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  border-style: none;
+  margin-bottom: 5px;
+  background-color: rgb(164, 164, 136);
+}
+.buydetails .det3 #btn1 a {
+  color: black;
+  text-decoration: none;
+}
+.buydetails .det3 #btn2 {
+  width: 100%;
+  padding: 5px;
+  border-radius: 8px;
+  border-style: none;
+  margin-bottom: 5px;
+  background-color: orange;
+}
+.buydetails .det3 #btn2 a {
+  color: black;
+  text-decoration: none;
+}
+.buydetails .det3 #btn1:hover {
+  background-color: red;
+  color: white;
+  padding: 7px;
+}
+.buydetails .det3 #btn2:hover {
+  background-color: red;
+  color: white;
+  padding: 7px;
+}
+
+.otherh1 {
+  text-align: start;
+  margin: 20px;
+  padding: 5px;
+  box-shadow: 1px 1px 1px 1px black;
+}
+.otherh1 .otherbook {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.otherh1 .otherbook .apjbook {
+  padding: 10px;
+  width: 300px;
+  line-height: 25px;
+}
+.otherh1 .otherbook .apjbook button {
+  color: black;
+  padding: 5px;
+  border-radius: 8px;
+  background-color: orchid;
+}
+.otherh1 .otherbook .apjbook button:hover {
+  background-color: goldenrod;
+  color: white;
+}
+
+.back {
+  background-color: black;
+  padding: 5px;
+  padding-left: 15px;
+  margin-bottom: 5px;
+}
+.back a {
+  color: white;
+  border: 1px solid;
+  padding: 3px;
+  text-decoration: none;
+}/*# sourceMappingURL=apjbookscss.css.map */
